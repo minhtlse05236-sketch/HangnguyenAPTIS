@@ -1,0 +1,71 @@
+@{
+    ViewData["Title"] = "Trang chủ";
+}
+
+<section class="hero-section">
+    <div class="container">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-7">
+                <span class="eyebrow">Luyện thi APTIS Online</span>
+                <h1 class="hero-title">Học chắc kỹ năng, tăng điểm APTIS từng ngày</h1>
+                <p class="hero-text">Lộ trình học rõ ràng cho Grammar, Vocabulary, Reading, Listening, Writing và Speaking với bài tập mô phỏng đề thi.</p>
+                <div class="d-flex flex-wrap gap-3">
+                    <a class="btn btn-primary btn-lg" asp-controller="Home" asp-action="Courses">Xem khoá học</a>
+                    <a class="btn btn-light btn-lg" asp-controller="Home" asp-action="Quiz">Làm quiz thử</a>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="hero-panel">
+                    <div class="score-card">
+                        <span>Mục tiêu tuần này</span>
+                        <strong>B2 Aptis</strong>
+                    </div>
+                    <div class="lesson-preview">
+                        <p class="mb-1 fw-semibold">Bài học đang nổi bật</p>
+                        <h2>Writing Task 2: Viết email đúng band</h2>
+                        <div class="progress mt-3" role="progressbar" aria-label="Tiến độ học" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 68%">68%</div>
+                        </div>
+                    </div>
+                    <div class="stats-grid">
+                        <div><strong>42</strong><span>Bài học</span></div>
+                        <div><strong>320+</strong><span>Câu quiz</span></div>
+                        <div><strong>8</strong><span>Lộ trình</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-pad">
+    <div class="container">
+        <div class="section-heading">
+            <span class="eyebrow">Học theo lộ trình</span>
+            <h2>Nội dung phù hợp cho người bận rộn</h2>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <div class="feature-icon">G</div>
+                    <h3>Grammar nền tảng</h3>
+                    <p>Ôn cấu trúc thường gặp trong đề APTIS, kèm ví dụ và bài tập ngắn.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <div class="feature-icon">W</div>
+                    <h3>Writing thực chiến</h3>
+                    <p>Mẫu triển khai ý, checklist lỗi phổ biến và bài luyện theo từng task.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <div class="feature-icon">S</div>
+                    <h3>Speaking tự tin</h3>
+                    <p>Chủ đề thường gặp, khung trả lời ngắn gọn và mẹo kéo dài câu nói.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

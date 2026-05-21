@@ -1,0 +1,45 @@
+@{
+    ViewData["Title"] = "Khoá học";
+}
+
+<section class="page-hero compact">
+    <div class="container">
+        <span class="eyebrow">Khoá học</span>
+        <h1>Chọn lộ trình APTIS phù hợp</h1>
+        <p>Từ nền tảng đến luyện đề, mỗi khoá đều có bài học ngắn và quiz kiểm tra.</p>
+    </div>
+</section>
+
+<section class="section-pad">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-md-6 col-xl-4">
+                <div class="course-card">
+                    <span class="course-tag">Beginner</span>
+                    <h2>APTIS Foundation</h2>
+                    <p>Ôn ngữ pháp, từ vựng và kỹ năng đọc nghe căn bản.</p>
+                    <div class="course-meta"><span>24 bài</span><span>6 tuần</span></div>
+                    <a class="btn btn-primary w-100" asp-controller="Home" asp-action="CourseDetail">Xem chi tiết</a>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-4">
+                <div class="course-card featured">
+                    <span class="course-tag">Popular</span>
+                    <h2>APTIS B1-B2 Intensive</h2>
+                    <p>Luyện theo từng kỹ năng, tập trung chiến thuật tăng band.</p>
+                    <div class="course-meta"><span>36 bài</span><span>8 tuần</span></div>
+                    <a class="btn btn-light w-100" asp-controller="Home" asp-action="CourseDetail">Xem chi tiết</a>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-4">
+                <div class="course-card">
+                    <span class="course-tag">Practice</span>
+                    <h2>APTIS Mock Test</h2>
+                    <p>Bộ đề mô phỏng, chấm điểm tiến độ và phân tích lỗi.</p>
+                    <div class="course-meta"><span>12 đề</span><span>4 tuần</span></div>
+                    <a class="btn btn-primary w-100" asp-controller="Home" asp-action="CourseDetail">Xem chi tiết</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
